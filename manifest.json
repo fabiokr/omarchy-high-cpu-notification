@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fabio.high-cpu-notification",
+  "name": "High CPU Notification",
+  "version": "1.0.0",
+  "author": "Fabio",
+  "license": "MIT",
+  "description": "Notifies once when a process reaches 99% CPU, with a five-minute per-process cooldown.",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
